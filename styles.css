@@ -36,7 +36,7 @@ h2{
 }
 
 /* Navbar */
-#Tim-header{
+#Ryley-header{
     color: var(--imperial-blue, blue);
     font-size: 30px;
     font-weight: 500;
@@ -96,13 +96,13 @@ h2{
     animation-duration: 2s;
     animation-timing-function: ease;
 }
-#Tim{
+#Ryley{
     animation-name: color;
     animation-duration: 5s; 
     animation-iteration-count: infinite;
     animation-delay: 2s;
 }
-#Vuong{
+#Haynes{
     animation-name: color;
     animation-duration: 5s; 
     animation-iteration-count: infinite;
