@@ -68,7 +68,7 @@ h2{
 }
 .navbar .menu li a{
     display: block;
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, lavender);
     font-size: 18px;
     font-weight: 500;
     margin-left: 2vw;
@@ -83,7 +83,7 @@ h2{
     padding: 200px 0;
     height: 100vh;
     min-height: 200 px;
-    background-color : var(--floral-white, white);
+    background-color : var(--floral-white, floral-white);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -137,7 +137,7 @@ h2{
     }
     100%{
         font-weight: bold;
-        font-color: var(--imperial-blue, blue);
+        font-color: var(--lavender, lavender);
     }
 }
 @keyframes thank-you-appear{
@@ -189,7 +189,7 @@ h3{
 
 /* Contact */
 .contact{
-    background-color: var(--tanish, tan);
+    background-color: var(--floral-white, floral-white);
 }
 .contact-content{
     position: relative;
@@ -200,19 +200,19 @@ h3{
     position: relative;
     margin-top: 10px;
     font-size: 25px;
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, lavender);
 }
 .contact-link{
     color: var(--ruby, red);
 }
 .contact-link:hover{
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, lavender);
 }
 
 /* Footer */
 footer{
     background: black;
     padding: 15px 23px;
-    color: var(--off-white,white);
+    color: var(--floral-white,floral-white);
     text-align: center;
 }
