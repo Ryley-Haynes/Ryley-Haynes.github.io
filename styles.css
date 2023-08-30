@@ -13,10 +13,6 @@
     --greyish: #BAB2B5;
     --imperial-blue: #123C69;
     --ruby: #AC3B61;
-    --black: #000000;
-    --alice-blue: #F0F8FF
-    --FloralWhite: #FFFAF0
-    --lavender: #E6E6FA
 }
 
 
@@ -34,14 +30,14 @@ section{
 }
 
 h2{
-    color: var(--lavender, lavender);
+    color: var(--imperial-blue, blue);
     text-align: center;
     font-size: 30px;
 }
 
 /* Navbar */
 #Ryley-header{
-    color: var(--lavender, lavender);
+    color: var(--imperial-blue, blue);
     font-size: 30px;
     font-weight: 500;
     text-align: left;
@@ -52,7 +48,7 @@ h2{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    background-color: var(--FloralWhite, FloralWhite;
+    background-color: var(--greyish, grey);
     font-family: 'Times New Roman', serif;
     transition: all 0.3s ease;
 }
@@ -68,7 +64,7 @@ h2{
 }
 .navbar .menu li a{
     display: block;
-    color: var(--lavender, lavender);
+    color: var(--imperial-blue, blue);
     font-size: 18px;
     font-weight: 500;
     margin-left: 2vw;
@@ -83,7 +79,7 @@ h2{
     padding: 200px 0;
     height: 100vh;
     min-height: 200 px;
-    background-color : var(--FloralWhite, FloralWhite);
+    background-color : var(--off-white, white);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -137,7 +133,7 @@ h2{
     }
     100%{
         font-weight: bold;
-        font-color: var(--lavender, lavender);
+        font-color: var(--imperial-blue, blue);
     }
 }
 @keyframes thank-you-appear{
@@ -154,7 +150,7 @@ h2{
 
 /* About */
 .about{
-    background-color: var(--FloralWhite, FloralWhite);
+    background-color: var(--tanish, tan);
 }
 #about-p{
     margin: 0 10% 0 10%;
@@ -162,23 +158,23 @@ h2{
     top: 10px;
     text-align: center;
     font-size: 25px;
-    color: var(--Floral-white, Floral-white);
+    color: var(--ruby, red);
 }
 
 /* Skills */
 .skills{
-    background-color: var(--FloralWhite, FloralWhite);
+    background-color: var(--off-white, white);
 }
 #skills-header{
     width: 100%;
 }
 h3{
     font-size: 25px;
-    color: var(--black, black);
+    color: var(--imperial-blue, blue);
 }
 .skill-list{
     font-size: 18px;
-    color: var(--lavender, lavender);
+    color: var(--ruby, red);
 }
 .skills-items{
     display: flex;
@@ -189,7 +185,7 @@ h3{
 
 /* Contact */
 .contact{
-    background-color: var(--FloralWhite, FloralWhite);
+    background-color: var(--tanish, tan);
 }
 .contact-content{
     position: relative;
@@ -200,19 +196,19 @@ h3{
     position: relative;
     margin-top: 10px;
     font-size: 25px;
-    color: var(--lavender, lavender);
+    color: var(--imperial-blue, blue);
 }
 .contact-link{
-    color: var(--FloralWhite, FloralWhite);
+    color: var(--ruby, red);
 }
 .contact-link:hover{
-    color: var(--FloralWhite, FloralWhite);
+    color: var(--imperial-blue, blue);
 }
 
 /* Footer */
 footer{
     background: black;
     padding: 15px 23px;
-    color: var(--FloralWhite,FloralWhite);
+    color: var(--off-white,white);
     text-align: center;
 }
