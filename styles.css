@@ -34,14 +34,14 @@ section{
 }
 
 h2{
-    color: var(--lavender, white);
+    color: var(--lavender, lavender);
     text-align: center;
     font-size: 30px;
 }
 
 /* Navbar */
 #Ryley-header{
-    color: var(--lavender, white);
+    color: var(--lavender, lavender);
     font-size: 30px;
     font-weight: 500;
     text-align: left;
