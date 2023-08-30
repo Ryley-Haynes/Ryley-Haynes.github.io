@@ -13,6 +13,10 @@
     --greyish: #BAB2B5;
     --imperial-blue: #123C69;
     --ruby: #AC3B61;
+    --black: #000000;
+    --alice-blue: #F0F8FF
+    --floral-white: #FFFAF0
+    --lavender: #E6E6FA
 }
 
 
@@ -30,14 +34,14 @@ section{
 }
 
 h2{
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, blue);
     text-align: center;
     font-size: 30px;
 }
 
 /* Navbar */
 #Ryley-header{
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, blue);
     font-size: 30px;
     font-weight: 500;
     text-align: left;
