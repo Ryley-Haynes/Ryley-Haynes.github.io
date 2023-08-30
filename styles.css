@@ -154,7 +154,7 @@ h2{
 
 /* About */
 .about{
-    background-color: var(--tanish, tan);
+    background-color: var(--black, black);
 }
 #about-p{
     margin: 0 10% 0 10%;
@@ -162,19 +162,19 @@ h2{
     top: 10px;
     text-align: center;
     font-size: 25px;
-    color: var(--ruby, red);
+    color: var(--floral-white, floral-white);
 }
 
 /* Skills */
 .skills{
-    background-color: var(--off-white, white);
+    background-color: var(--floral-white, white);
 }
 #skills-header{
     width: 100%;
 }
 h3{
     font-size: 25px;
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, lavender);
 }
 .skill-list{
     font-size: 18px;
@@ -189,7 +189,7 @@ h3{
 
 /* Contact */
 .contact{
-    background-color: var(--floral-white, floral-white);
+    background-color: var(--black, black);
 }
 .contact-content{
     position: relative;
@@ -203,10 +203,10 @@ h3{
     color: var(--lavender, lavender);
 }
 .contact-link{
-    color: var(--ruby, red);
+    color: var(--floral-white, floral-white);
 }
 .contact-link:hover{
-    color: var(--lavender, lavender);
+    color: var(--floral-white, floral-white);
 }
 
 /* Footer */
