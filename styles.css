@@ -15,7 +15,7 @@
     --ruby: #AC3B61;
     --black: #000000;
     --alice-blue: #F0F8FF
-    --floral-white: #FFFAF0
+    --FloralWhite: #FFFAF0
     --lavender: #E6E6FA
 }
 
@@ -83,7 +83,7 @@ h2{
     padding: 200px 0;
     height: 100vh;
     min-height: 200 px;
-    background-color : var(--floral-white, floral-white);
+    background-color : var(--FloralWhite, FloralWhite);
     background-size: cover;
     background-attachment: fixed;
 }
