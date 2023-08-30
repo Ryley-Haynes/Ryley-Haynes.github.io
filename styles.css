@@ -13,6 +13,7 @@
     --greyish: #BAB2B5;
     --imperial-blue: #123C69;
     --ruby: #AC3B61;
+    --lavender: #E6E6FA;
 }
 
 
@@ -37,7 +38,7 @@ h2{
 
 /* Navbar */
 #Ryley-header{
-    color: var(--imperial-blue, blue);
+    color: var(--lavender, lavender);
     font-size: 30px;
     font-weight: 500;
     text-align: left;
@@ -48,7 +49,7 @@ h2{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    background-color: var(--greyish, grey);
+    background-color: var(--black, black);
     font-family: 'Times New Roman', serif;
     transition: all 0.3s ease;
 }
