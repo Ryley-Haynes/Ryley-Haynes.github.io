@@ -52,7 +52,7 @@ h2{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    background-color: var(--black, black);
+    background-color: var(--FloralWhite, FloralWhite;
     font-family: 'Times New Roman', serif;
     transition: all 0.3s ease;
 }
@@ -154,7 +154,7 @@ h2{
 
 /* About */
 .about{
-    background-color: var(--black, black);
+    background-color: var(--FloralWhite, FloralWhite);
 }
 #about-p{
     margin: 0 10% 0 10%;
@@ -162,23 +162,23 @@ h2{
     top: 10px;
     text-align: center;
     font-size: 25px;
-    color: var(--floral-white, floral-white);
+    color: var(--Floral-white, Floral-white);
 }
 
 /* Skills */
 .skills{
-    background-color: var(--floral-white, white);
+    background-color: var(--FloralWhite, FloralWhite);
 }
 #skills-header{
     width: 100%;
 }
 h3{
     font-size: 25px;
-    color: var(--lavender, lavender);
+    color: var(--black, black);
 }
 .skill-list{
     font-size: 18px;
-    color: var(--ruby, red);
+    color: var(--lavender, lavender);
 }
 .skills-items{
     display: flex;
@@ -189,7 +189,7 @@ h3{
 
 /* Contact */
 .contact{
-    background-color: var(--black, black);
+    background-color: var(--FloralWhite, FloralWhite);
 }
 .contact-content{
     position: relative;
@@ -203,16 +203,16 @@ h3{
     color: var(--lavender, lavender);
 }
 .contact-link{
-    color: var(--floral-white, floral-white);
+    color: var(--FloralWhite, FloralWhite);
 }
 .contact-link:hover{
-    color: var(--floral-white, floral-white);
+    color: var(--FloralWhite, FloralWhite);
 }
 
 /* Footer */
 footer{
     background: black;
     padding: 15px 23px;
-    color: var(--floral-white,floral-white);
+    color: var(--FloralWhite,FloralWhite);
     text-align: center;
 }
