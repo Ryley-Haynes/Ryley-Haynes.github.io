@@ -15,6 +15,7 @@
     --ruby: #AC3B61;
     --lavender: #E6E6FA;
     --floral-white: #FFFAF0;
+    --gainsboro: #DCDCDC;
 }
 
 
@@ -81,7 +82,7 @@ h2{
     padding: 200px 0;
     height: 100vh;
     min-height: 200 px;
-    background-color : var(--off-white, white);
+    background-color : var(--gainsboro, gainsboro);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -165,7 +166,7 @@ h2{
 
 /* Skills */
 .skills{
-    background-color: var(--floral-white, floral-white);
+    background-color: var(--gainsboro, gainsboro);
 }
 #skills-header{
     width: 100%;
